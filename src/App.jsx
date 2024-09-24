@@ -1,12 +1,13 @@
-import Header from "./components/Header";
+import Form from "./components/Form";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 return (
 
-  <Header user={"Garen Gulmez"} message={"Hola mundo"}/>
+  <Form />
 )
 
- 
 }
 
 export default App;
